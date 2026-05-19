@@ -23,7 +23,7 @@ jobs:
         run: make compose-ci-build
 
       - name: Run CI tests
-        run: make compose-ci
+        run: make compose-test
 
       - name: Docker Login
         uses: docker/login-action@v2
